@@ -1,0 +1,8 @@
+<div class="portfolio-page" ng-controller="PortfolioCtrl">
+	<div class="name">{{ person.name }}</div>
+	<br><br>
+	<div="profpic">{{ person.profile }}</div>
+	<div class="images" ng-repeat="image in person.img track by $index">
+		<img src="{{ image }}">
+	</div>
+</div>
