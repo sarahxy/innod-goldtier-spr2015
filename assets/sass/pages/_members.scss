@@ -1,0 +1,11 @@
+// Styles for Members Page
+.members-page {
+
+	.mlinks {
+		img {
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+}

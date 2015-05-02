@@ -1,0 +1,14 @@
+// Styles for Portfolio Page
+.portfolio-page {
+	.name {
+	}
+
+	img {
+		width: 100%;
+		opacity: 0.5;
+
+		&:hover {
+			opacity: 0.75;
+		}
+	}
+}
